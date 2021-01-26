@@ -1,0 +1,274 @@
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+HTTP/1.1 200 OK
+Date: Tue, 26 Jan 2021 16:47:04 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: __cfduid=d9a2e452bbe647fb3dad131b690d5ae4f1611679624; expires=Thu, 25-Feb-21 16:47:04 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 07e13084330000e77fdea67000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=uHdn7WAmvzH6SSwZbWymEW2z5qsIZ8KrZGl7uQz8AN6g1MkTE%2BaYt47hbVCvkAnlgRnWXxOtJs92aLjIIWowYSJYDQggdzvCz5w%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 617bb6b38924e77f-ATL
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": ""
+}
+HTTP/1.1 400 Bad Request
+Date: Tue, 26 Jan 2021 16:47:05 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 28
+Connection: keep-alive
+Set-Cookie: __cfduid=d547f99b192a59112992c8d9dee3eeff11611679624; expires=Thu, 25-Feb-21 16:47:04 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 07e13086ab00001d0ef1803000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=jzzppkCcgcRg3DnVghm0iBt6hu%2BzAIH%2BIIKK251y%2BVR8LBXPjGilBZzYkWMR5BNzhmE43RiRdKROSbsrOSbrN0cCcMjBywxmRVk%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 617bb6b779ef1d0e-CPH
+
+{
+    "error": "Missing password"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "",
+    "password": "pistol"
+}
+HTTP/1.1 400 Bad Request
+Date: Tue, 26 Jan 2021 16:47:05 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 37
+Connection: keep-alive
+Set-Cookie: __cfduid=d2f87be56e21db5cd177532ddd81b76121611679625; expires=Thu, 25-Feb-21 16:47:05 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"25-Ik70kof1lbc973ShN5FoVPxYn7A"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 07e13089640000d885ab862000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=gXfcFBXL9ggLG7VpWfKj54NWYGlUBXqAigRMdfzm3vP5EZb%2FxCgCcWLmUDy8eCibwqghvIcggKCZbPYbhjwkTk%2FJPKk6IKSf%2BC8%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 617bb6bbdce3d885-CPH
+
+{
+    "error": "Missing email or username"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "",
+    "password": ""
+}
+HTTP/1.1 400 Bad Request
+Date: Tue, 26 Jan 2021 16:47:06 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 37
+Connection: keep-alive
+Set-Cookie: __cfduid=ddf4a931b87dc2d3be8953417c7b490cb1611679626; expires=Thu, 25-Feb-21 16:47:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"25-Ik70kof1lbc973ShN5FoVPxYn7A"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 07e1308b830000180bddbda000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=jIimjHEVlPH65n9AZtxJ2mdCa6yvSa5%2BOZ8LXfQnO0tSoq7FKzH7vOHjutZRuMZ3gXJmQr6NzSaYwE8xFnGdSLehyFpt%2BylR77M%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 617bb6bf3bce180b-ATL
+
+{
+    "error": "Missing email or username"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "abc@xyz.com",
+    "password": "123"
+}
+HTTP/1.1 400 Bad Request
+Date: Tue, 26 Jan 2021 16:47:07 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 57
+Connection: keep-alive
+Set-Cookie: __cfduid=db44ef57f78bff63b597f174f754a81fa1611679626; expires=Thu, 25-Feb-21 16:47:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"39-6jrJxn+7f+pQUhbPgNMst7tagpA"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 07e1308e6400000d1eed9a5000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=dlZyXGp9DV6nW%2BnQL%2FAJsN00n7KDwjjSu6UUK9tNHJzQRc1w1EeoekEKfcXUD1q3FUk1q%2FnXKm2ll4xjxb1ONL6vhU73qFBCJ8k%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 617bb6c3db360d1e-ATL
+
+{
+    "error": "Note: Only defined users succeed registration"
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 26 Jan 2021 16:47:07 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d9a4a526c8499ed9344f1e994d3d4db6e1611679627; expires=Thu, 25-Feb-21 16:47:07 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 3599
+cf-request-id: 07e130917d0000e74497bc1000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=DXotb5CzvteUr7VWrdvld5PCh7%2FSMOpHNJoH04h%2BLUbA0r%2BZwELFU1rt6DRyXCSKvEm4U5smI4MNUdP216dpE60vBXrmNXCFT7A%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 617bb6c8ca7be744-EWR
+Content-Encoding: gzip
+
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
